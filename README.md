@@ -36,7 +36,7 @@ $ helm repo add gopaddle_configurator https://github.com/gopaddle-io/configurato
 ```
 
 ### Install configurator to cluster
-To install Configurator in the cluster.
+To install Configurator in the cluster:
 ```sh
 $ helm install configurator gopaddle_configurator/configurator --version 0.4.0-alpha
 ```
@@ -57,4 +57,4 @@ $ helm delete configurator gopaddle_configurator/configurator
 3. Ensure the README is updated with any interface or architecture changes.
 
 ## Maintainers
-Congurator is maintained by [gopaddle.io](https://gopaddle.io) team.
+Configurator is maintained by [gopaddle.io](https://gopaddle.io) team.
